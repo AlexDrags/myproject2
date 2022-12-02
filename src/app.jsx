@@ -1,6 +1,6 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
-import Clock from "./components/app/section";
+import PageWrapper from "./components/layouts/page-wrapper/page-wrapper";
 import "./App.css";
 
 // function Element () {
@@ -18,11 +18,7 @@ import "./App.css";
 class App extends Component{  
   render(){
     return(
-      <div className="App">
-        <p className="App__paragraf"> Текущее время </p>
-        <Clock />
-      </div>
-      
+      <PageWrapper />      
     );
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component} from "react";
-import "./section.css";
+import "./clock.css";
 
 function FormattedDate(props) {
   return (
