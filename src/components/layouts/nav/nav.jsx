@@ -5,10 +5,10 @@ class Nav extends React.Component {
         return(
         <nav>
             <ul className="nav__list">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Features</a></li>
-            <li><a>Contact</a></li>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Features</a></li>
+                <li><a>Contact</a></li>
             </ul>
         </nav>
         )
